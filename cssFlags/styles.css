@@ -1,0 +1,183 @@
+.france {
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+}
+.france-1 {
+    background-color:#002495;
+    height: 200px;
+    width: 99px;
+    display:inline-block;
+}
+.france-2 {
+    background-color:#FFFFFF;
+    height: 200px;
+    width: 94px;
+    display: inline-block;
+}
+.france-3 {
+    background-color: #ED2938;
+    height: 200px;
+    width: 99px;
+    display: inline-block;
+}
+.germ {
+    border: 2px solid black;
+    height:200px;
+    width: 333.33px;
+    display: inline-block;
+}
+.germ-1 {
+    height: 66px;
+    width:333px;
+    background-color:#000000 ;
+}
+.germ-2 {
+    height: 66px;
+    width:333px;
+    background-color: #DE0002;
+}
+.germ-3 {
+    height: 68px;
+    width:333px;
+    background-color: #FFCE00;
+}
+.mad {
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+}
+.mad-1 {
+    height: 200px;
+    width: 100px;
+    background-color: #FFFFFF;
+    display: inline-block;
+
+}
+.mad-2 {
+    height: 100px;
+    width: 200px;
+    background-color: #FF0002;
+    display: inline-block;
+    position:relative;
+    bottom: 204px;
+    left: 100px;
+}
+.mad-3 {
+    height: 100px;
+    width: 200px;
+    background-color: #007E39;
+    position: relative;
+    bottom: 208px;
+    left: 100px;
+}
+.swit {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: #FF0002;
+    display: inline-block;
+}
+.swit-1 {
+    height: 100px;
+    width: 30px;
+    background-color: white;
+    position: relative;
+    left: 85px;
+    top: 50px;
+}
+.swit-2 {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+.swed {
+    height: 200px;
+    width:  320px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: #0269A6;
+}
+.swed-1 {
+    height: 40px;
+    width: 320;
+    background-color: #FECC00;
+    position: relative;
+    top: 80px;
+}
+.swed-2 {
+    height: 200px;
+    width: 40px;
+    background-color: #FECC00;
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+}
+.gambia {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.gam-1 {
+    height: 66.66px;
+    width: 300px;
+    background-color: #CE1127
+}
+.gam-2 {
+    height: 50px;
+    width: 300;
+    background-color: #0D1B8B;
+    top: 08px;
+    position: relative;
+}
+.gam-3 {
+    height: 66.66px;
+    width: 300px;
+    background-color: #3B7827;
+    top: 17px;
+    position: relative;
+}
+.japan {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.ja-1 {
+    color: #BC022C;
+    font-size: 1000px;
+    display: inline-block;
+    position: relative; 
+    bottom: 755px;
+    right: 15px;
+}
+.niger {
+    height: 200px;
+    width: 233px;
+    border: 2px solid black;
+}
+.ni-1 {
+    height: 66.66px;
+    width: 233px;
+    background-color: #e15307
+}
+.ni-2 {
+    color: #E15307;
+    font-size: 500px;
+    position: relative;
+    bottom: 395px;
+    left: 30px;
+}
+.ni-3 {
+    height: 66.66px;
+    width: 233px;
+    position: relative;
+    background-color: #10AF2A;
+    bottom: 508px;
+}
