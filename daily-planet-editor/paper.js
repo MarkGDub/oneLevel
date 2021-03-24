@@ -32,7 +32,7 @@ for (var i = 0; i < enemies.length; i++) {
 
 function howAttractedIsLoisLaneToMe() {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return math.floor(( math.random() * 10 ) + 1 );
+    return Math.floor(( Math.random() * 10 ) + 1 );
 }
 
 console.log(howAttractedIsLoisLaneToMe());
@@ -43,7 +43,7 @@ var superman = false;
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
-    var phoneBoothQuickChange = math.random();
+    var phoneBoothQuickChange = Math.random();
     if (phoneBoothQuickChange >= 0.5) {
         clarkKent = false;
         superman = true;
