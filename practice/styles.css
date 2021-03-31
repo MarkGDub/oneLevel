@@ -1,29 +1,4 @@
-.main-head {
-  grid-area: header;
-}
-.content {
-  grid-area: content;
-}
-.main-nav {
-  grid-area: nav;
-}
-.side {
-  grid-area: sidebar;
-}
-.ad {
-  grid-area: ad;
-}
-.main-footer {
-  grid-area: footer;
-}
-.wrapper {
-  display: grid;
-  gap: 20px;
-  grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "sidebar"
-    "ad"
-    "footer";
+.divs {
+  border: 2px solid black;
+  height: 50px;
 }
