@@ -4,11 +4,12 @@ const input = form.title
 const list = document.querySelector('#list')
 
 form.addEventListener('submit', (e) => {
-    event.preventDefault()
+    e.preventDefault()
 
-    var newItem = document.createElement('li')
-    const inputValue = document.addItem.title.value
+    const newItem = document.createElement('li')
+    let inputValue = document.addItem.title.value
     newItem.textContent = inputValue
+    document.addItem.title.value = ""
     
     const btnForm = document.createElement('form')
     btnForm.style.textAlign = 'center'
@@ -25,13 +26,23 @@ form.addEventListener('submit', (e) => {
     btnForm.appendChild(deleteBtn)
     
     editBtn.addEventListener('click', (e) => {
-        e.preventDefault()
+        // e.preventDefault()
 
         btnForm.removeChild(editBtn)
         btnForm.appendChild(updateBtn)
         let editText = document.createElement('input')
         editText.setAttribute('type', 'text')
         newItem.appendChild(editText)
+
+        //Add eventlistener for update button
+        updateBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+
+            newItem.textContent = editText.value
+            btnForm.appendChild(editBtn)
+            btnForm.removeChild(updateBtn)
+
+        })
     })
     
     deleteBtn.addEventListener('click', function(e){

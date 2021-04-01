@@ -20,9 +20,8 @@ let num2 = readlineSync.question("Please enter your second number ")
 num2 = parseInt(num2)
 
 let op = readlineSync.question("Please enter the operation to perform: +, -, *, / ")
-console.log(op)
 
-function calculator(num1, num2) {
+function calculator() {
   if (op === "+") {
     let result = num1 + num2;
     console.log("The result of adding is", result)
@@ -44,7 +43,7 @@ function calculator(num1, num2) {
   }
 }
 
-calculator(num1, num2)
+calculator()
 
 // my first attempt at building my functions for my calculator
 // function sum(num1, num2) {

@@ -1,65 +1,132 @@
+@media only screen and (max-width: 800px) {
+  html {
+    border: 10px solid blue;
+
+  }
+
+  body {
+    border: 10px solid red;
+    background-color: gainsboro;
+  }
+
+  .logo {
+    display: block;
+    width: 25%;
+    margin: auto;
+  }
+  h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 1px solid
+  }
+
+  .menu {
+    padding-left: 0;
+    margin:  auto;
+    border: 2px solid black;
+    text-align: center;
+    list-style:none;
+  }
+
+  .menu > li {
+    display: block;
+    width: 100%;
+    border: 1px solid black
+  }
+
+  .pug {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+  }
+
+  .media {
+    display: none;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  div > a {
+    text-align: center;
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 800px) {
-    html, body, main {
-        margin: 5px;
-    }
-    .pug {
-        display: block;
-        width: 92%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    h1 {
-      text-align: center;
-    }
-    
-    .menu {
-        border: 2px solid black;
-        background-color: lightsalmon;
-        display: flex;
-        list-style: none;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    a > .logo {
-        width: 20%;
-    }
-    
-    .media {
-        position: fixed;
-        top: 0;
-        margin-top: 25%;
-        list-style: none;
-    }
-    
-    .search {
-      margin:auto;
-      width: 60%;
-      padding: 10px;
-    }
-    
-    .find {
-      margin:auto ;
-      width: 60%;
-      padding: 10px;
-    }
-    
-    div > p {
-        text-align: center;
-    }
-    
-    div > a {
-      margin-left: 46%
-    }
-    
-    a > img {
-      width: 5%
-    }
-    
-    .contact > p {
+  html, body, main {
+      margin: 5px;
+  }
+  .pug {
+      display: block;
+      width: 92%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .menu {
       border: 2px solid black;
-      display: inline-block;
-      margin: auto;
-      width: 20%
-    }
+      background-color: lightsalmon;
+      display: flex;
+      list-style: none;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 0px;
+  }
+
+  .menu li {
+    width: 30%;
+    text-align: center;
+  }
+
+  a > .logo {
+      width: 20%;
+      margin: 0 auto;
+      display: block;
+  }
+  
+  .media {
+      position: fixed;
+      top: 0;
+      margin-top: 25%;
+      list-style: none;
+  }
+  
+  .search {
+    margin:auto;
+    width: 60%;
+    padding: 10px;
+  }
+  
+  .find {
+    margin:auto ;
+    width: 60%;
+    padding: 10px;
+  }
+  
+  div > p {
+      text-align: center;
+  }
+  
+  div > a {
+    margin-left: 46%
+  }
+  
+  a > img {
+    width: 5%
+  }
+  
+  .contact > p {
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    width: 20%;
+  }
 }
