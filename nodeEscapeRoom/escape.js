@@ -20,7 +20,7 @@ function iteration(){
         if (action === "h") {
             player.isAlive = false;
             console.log("The hole opens and water floods in");
-            return endGame();
+            endGame();
         } else if (action === "o" && player.hasKey === false) {
             console.log("The door wont open, but there is a key dangling in the hole in the wall ");
             return start();
